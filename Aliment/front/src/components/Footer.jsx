@@ -37,10 +37,7 @@ export default function Footer() {
                 <Link to="/diseases" className="text-gray-400 hover:text-white">Maladies</Link>
               </li>
               <li>
-                <Link to="/advice" className="text-gray-400 hover:text-white">Conseils</Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-400 hover:text-white">Blog</Link>
+                <Link to="/advice" className="text-gray-400 hover:text-white">Conseils & Blog</Link>
               </li>
             </ul>
           </div>
@@ -69,7 +66,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>+33 1 23 45 67 89</span>
+                <span>+237 656285142</span>
               </li>
             </ul>
           </div>

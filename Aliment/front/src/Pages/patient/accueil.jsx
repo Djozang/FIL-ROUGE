@@ -30,26 +30,43 @@ function accueil() {
 
   const testimonials = [
     {
-      name: "Marie L.",
-      age: 65,
-      condition: "Diabète de type 2",
+      name: "Lori Love.",
+      age: 45,
+      condition: "Favisme",
       quote: "Grâce à cette application, je gère beaucoup mieux mon diabète. Les alertes m'aident à éviter les aliments trop sucrés."
     },
     {
-      name: "Jean P.",
-      age: 72,
+      name: "Vinny.",
+      age: 52,
       condition: "Hypertension",
       quote: "Les recommandations alimentaires m'ont permis de réduire ma tension artérielle de façon naturelle. Je me sens beaucoup mieux !"
     },
     {
-      name: "Sophie M.",
-      age: 45,
-      condition: "Favisme",
+      name: "Bamilonaise.",
+      age: 75,
+      condition: "Diabète de type 2",
       quote: "L'application m'alerte immédiatement quand je risque de consommer des aliments dangereux pour ma condition. C'est rassurant !"
     }
   ];
   return (
     <div>
+
+         {/* Hero Section */}
+         <section className="relative bg-gradient-to-r from-green-50 to-blue-50 py-20">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center">
+            <div className="md:w-1/2 mb-10 md:mb-0">
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Prenez soin de votre santé grâce à une alimentation adaptée
+              </h1>
+              <p className="text-xl text-gray-700 mb-8">
+                Cette application vous aide à suivre votre alimentation en fonction de vos besoins spécifiques, que ce soit pour la gestion du poids, le diabète, les allergies ou d'autres conditions de santé.
+              </p>
+              </div>
+              </div>
+              </div>
+             </section>
+              
        {/* Features Section */}
        <section className="py-16 bg-white">
         <div className="container mx-auto px-4">

@@ -84,7 +84,7 @@ export default function NutritionJournal() {
     const addFoodToMeal = () => {
         if (!selectedFood) return;
 
-        const portionMultiplier = parseFloat(portion) || 1;
+        const portionMultiplier = parseFloat(portion) || 1; 
         const adjustedFood = {
             ...selectedFood,
             calories: Math.round(selectedFood.calories * portionMultiplier),

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import logo from '../assets/logo-sante.png'; // Assurez-vous que le chemin est correct
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Navbar() {
     { name: 'Services', path: '/services' },
     { name: 'Maladies', path: '/diseases' },
     { name: 'Conseils', path: '/advice' },
-    { name: 'Blog', path: '/blog' },
+    /*{ name: 'Blog', path: '/blog' },*/
   ];
 
   // Fonction temporaire pour la démo - à supprimer plus tard
@@ -37,7 +38,7 @@ export default function Navbar() {
               className="flex items-center focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 rounded-md"
             >
               <img 
-                src="/logo.png"  // Remplacez par le chemin réel de votre logo
+                src={logo}  // Remplacez par le chemin réel de votre logo
                 alt="Logo NutriSanté" 
                 className="h-10 w-10 mr-2"
                 width={40}

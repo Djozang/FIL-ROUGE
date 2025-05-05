@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import ServicesPage from './Pages/Services';
 import DiseasesPage from './Pages/Diseases';
 import AdvicePage from './pages/Advice';
+import { AdviceDetail } from './Pages/AdviceDetail';
 import Accueil from './Pages/patient/accueil';//route dashboard
 
 
@@ -56,6 +57,7 @@ function App() {
               <Route path="/advice" element={<AdvicePage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />
+              <Route path="/advice/:disease" element={<AdviceDetail />} /> 
               {/* <Route path="/accueil" element={<accueil />} /> */}
             </Route>
 

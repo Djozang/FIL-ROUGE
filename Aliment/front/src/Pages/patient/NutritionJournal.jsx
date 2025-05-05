@@ -95,7 +95,7 @@ export default function NutritionJournal() {
       form.foods.toLowerCase().includes(food)
     );
     if (forbidden) {
-      setAlert(`Attention : "${forbidden}" est interdit pour votre maladie (${userDisease}) !`);
+      setAlert(`Attention: "${forbidden}" est interdit pour votre maladie (${userDisease})!`);
     } else {
       setAlert("");
     }
